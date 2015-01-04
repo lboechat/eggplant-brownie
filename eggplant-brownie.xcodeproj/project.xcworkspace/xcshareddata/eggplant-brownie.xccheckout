@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DB9D43E7-DDF6-4C9A-A600-B37BE246DEFF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>eggplant-brownie</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>56FAA6688243FE7FE1905F3D9257A57BFADC5DF9</key>
+		<string>https://github.com/lboechat/eggplant-brownie.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eggplant-brownie.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>56FAA6688243FE7FE1905F3D9257A57BFADC5DF9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lboechat/eggplant-brownie.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>56FAA6688243FE7FE1905F3D9257A57BFADC5DF9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>56FAA6688243FE7FE1905F3D9257A57BFADC5DF9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>eggplant-brownie</string>
+		</dict>
+	</array>
+</dict>
+</plist>

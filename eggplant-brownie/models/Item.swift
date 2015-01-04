@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Item: Equatable {
+class Item: NSObject, Equatable, NSCoding {
     let name:String
     let calories:Double
     
@@ -17,6 +17,15 @@ class Item: Equatable {
         self.calories = calories
     }
     
+    required init(coder aDecoder: NSCoder) {
+        self.name = aDecoder.decodeObjectForKey("name") as String
+        self.calories = aDecoder.decodeDoubleForKey("calories")
+    }
+    
+    func encodeWithCoder(aCoder: NSCoder) {
+        aCoder.encodeObject(self.name,forKey: "name")
+        aCoder.encodeObject(self.calories, forKey: "calories")
+    }
 }
 
 func ==(first:Item, second:Item) -> Bool {

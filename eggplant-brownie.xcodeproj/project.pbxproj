@@ -20,6 +20,7 @@
 		1C96CE0F1A50551F002D70B6 /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C96CE0E1A50551F002D70B6 /* MealsTableViewController.swift */; };
 		1C9B9F5E1A4F570D001A1336 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B9F5D1A4F570D001A1336 /* Meal.swift */; };
 		1C9B9F601A4F5722001A1336 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B9F5F1A4F5722001A1336 /* Item.swift */; };
+		1CD69B821A59E0D0004A5049 /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD69B811A59E0D0004A5049 /* Dao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1C96CE0E1A50551F002D70B6 /* MealsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
 		1C9B9F5D1A4F570D001A1336 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		1C9B9F5F1A4F5722001A1336 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1CD69B811A59E0D0004A5049 /* Dao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				1C9B9F5D1A4F570D001A1336 /* Meal.swift */,
 				1C9B9F5F1A4F5722001A1336 /* Item.swift */,
+				1CD69B811A59E0D0004A5049 /* Dao.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				1C5E40651A56BB15005AA140 /* NewItemViewController.swift in Sources */,
 				1C9B9F5E1A4F570D001A1336 /* Meal.swift in Sources */,
 				1C5E40681A586C4F005AA140 /* Alert.swift in Sources */,
+				1CD69B821A59E0D0004A5049 /* Dao.swift in Sources */,
 				1C8D37DD1A4F5B1D0074C3DE /* ViewController.swift in Sources */,
 				1C5E406A1A58DFA5005AA140 /* RemoveMealController.swift in Sources */,
 				1C5DBE7E1A4C71E500D8E3C5 /* AppDelegate.swift in Sources */,

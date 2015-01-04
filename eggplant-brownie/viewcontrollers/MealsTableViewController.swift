@@ -10,7 +10,7 @@ import UIKit
 
 class MealsTableViewController: UITableViewController, AddAMealDelegate {
 
-    var meals = [Meal(name: "Eggplant brownie",happiness: 5), Meal(name: "Zuccini Muffin", happiness: 3)]
+    var meals = Array<Meal>()
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section:Int) -> Int {
         return meals.count
@@ -59,7 +59,12 @@ class MealsTableViewController: UITableViewController, AddAMealDelegate {
     
     func add(meal: Meal) {
         meals.append(meal)
+        Dao().save(meals)
         tableView.reloadData()
+    }
+    
+    override func viewDidLoad() {
+        meals = Dao().loadMeals()
     }
 
 }
